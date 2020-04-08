@@ -41,13 +41,3 @@ set(COMPONENT_SRCEXCLUDE
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-unused-variable")
 
 register_component()
-
-#        -DWOLFSSL_ESPIDF \
-#        -DWOLFSSL_ESPWROOM32 \
-#        -DHAVE_ED25519 \
-#        -DHAVE_CURVE25519 \
-#        -DWOLFSSL_SHA512 \
-#        -DHAVE_HKDF \
-#        -DWOLFSSL_TLS13 \
-
-#add_definitions(${WOLFSSL_DEFINITIONS})
