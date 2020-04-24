@@ -4,7 +4,8 @@ set(CMAKE_CURRENT_SOURCE_DIR ".")
 set(WOLFSSL_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/wolfssl)
 set(INCLUDE_PATH ${WOLFSSL_ROOT})
 
-set(COMPONENT_SRCDIRS 
+set(COMPONENT_SRCDIRS
+        "src"
         "${WOLFSSL_ROOT}/src"
         "${WOLFSSL_ROOT}/wolfcrypt/src/"
         "${WOLFSSL_ROOT}/wolfcrypt/src/port/Espressif/"
